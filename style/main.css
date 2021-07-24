@@ -41,7 +41,7 @@ a, a:link, a:visited, a:hover, a:active{
 
 .landing /** foto do jogo em destaque **/ {
 	background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%),
-	url('images/fredon.jpg');
+	url('../images/fredon.jpg');
 	background-position: center top;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -163,101 +163,101 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 /** setando a imagem de fundo de cada card **/
 
 .jogo1{
-  background: var(--opacidade), url('images/finalcdb2007.jpg');
+  background: var(--opacidade), url('../images/finalcdb2007.jpg');
 }
 
 .jogo2{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/20102.png');
+	background: var(--opacidade), url('../images/20102.png');
 }
 
 .jogo3{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/goldebarriga.jpg');
+	background: var(--opacidade), url('../images/goldebarriga.jpg');
 }
 
 .jogo4{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/mjprimeiraliga.jpg');
+	background: var(--opacidade), url('../images/mjprimeiraliga.jpg');
 }
 
 .jogo5{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/gumsula.jpg');
+	background: var(--opacidade), url('../images/gumsula.jpg');
 }
 
 .jogo6{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/final84ida.jpg');
+	background: var(--opacidade), url('../images/final84ida.jpg');
 }
 
 .jogo7{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/final84volta.jpg');
+	background: var(--opacidade), url('../images/final84volta.jpg');
 }
 
 .jogo8{
-  background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/finalcarioca2005.jpg');
+  background: var(--opacidade), url('../images/finalcarioca2005.jpg');
 }
 
 .jogo9{
-  background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/finalcarioca1983.jpg');
+  background: var(--opacidade), url('../images/finalcarioca1983.jpg');
 }
 
 .jogo10{
-  background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/fluxsp2008.jpg');
+  background: var(--opacidade), url('../images/fluxsp2008.jpg');
 }
 
 .jogo11{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/semiboca2008.jpg');
+	background: var(--opacidade), url('../images/semiboca2008.jpg');
 }
 
 .jogo12{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/fluxcoxa2009.jpg');
+	background: var(--opacidade), url('../images/fluxcoxa2009.jpg');
 }
 
 .jogo13{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/fluxnacional2018.jpg');
+	background: var(--opacidade), url('../images/fluxnacional2018.jpg');
 }
 
 .cancao1{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/desdequeeunasci.jpg');
+	background: var(--opacidade), url('../images/desdequeeunasci.jpg');
 }
 
 .cancao2{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/hino.jpg');
+	background: var(--opacidade), url('../images/hino.jpg');
 }
 
 .cancao3{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/meucoracaoacelera.jpg');
+	background: var(--opacidade), url('../images/meucoracaoacelera.jpg');
 }
 
 .cancao4{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/minharaiz.jpg');
+	background: var(--opacidade), url('../images/minharaiz.jpg');
 }
 
 .cancao5{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/anunciacaotricolor.jpg');
+	background: var(--opacidade), url('../images/anunciacaotricolor.jpg');
 }
 
 .cancao6{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/desdepequenotesigo.jpeg');
+	background: var(--opacidade), url('../images/desdepequenotesigo.jpeg');
 }
 
 .doc1{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/campeaobr2012.jpg');
+	background: var(--opacidade), url('../images/campeaobr2012.jpg');
 }
 
 .doc2{
 
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/ffcamazon.jpg');
+	background: var(--opacidade), url('../images/ffcamazon.jpg');
 
 }
 
 .doc3{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/3coresumapaixao.png');
+	background: var(--opacidade), url('../images/3coresumapaixao.png');
 }
 
 .doc4{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/flafludoc.jpeg');
+	background: var(--opacidade), url('../images/flafludoc.jpeg');
 }
 
 .doc5{
-	background: var(--opacidade), url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/campeaobr2010.jpg');
+	background: var(--opacidade), url('../images/campeaobr2010.jpg');
 }
 
 .jogo1, .jogo2, .jogo3, .jogo4, .jogo5, .jogo6, .jogo7, .jogo8, .jogo9
