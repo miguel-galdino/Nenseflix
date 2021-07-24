@@ -359,7 +359,7 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 
 .landing{
 		background: var(--opacidade),
-		url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/fredonmd.jpg');
+		url('..images/fredonmd.jpg');
 	}
 
 	.nav-link /** texto do menu colapsável **/{
@@ -392,7 +392,7 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 @media (max-width: 600px){
 	.landing{
 		background: var(--opacidade),
-		url('file://C:/Users/Miguel Lino/repositories/Nenseflix/images/fredonsm.jpg');
+		url('../images/fredonsm.jpg');
 	}
 
 	.nav-active /** opacidade da navbar no modo mobile **/{
