@@ -9,6 +9,11 @@
 
 /** geral **/
 
+html{
+	scroll-behavior: smooth;
+
+}
+
 body{
 	min-height: 75rem;
 	background-color: #141414;
