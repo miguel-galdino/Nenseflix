@@ -35,4 +35,29 @@ window.onscroll = () => {
     }
 };
 
+/** Mudança de cor da navbar quando o usuário ainda está no topo da página **/
+const navbarToggler = document.querySelector('.navbar-toggler')
 
+navbarToggler.addEventListener('click', ()=>{
+   navbar.classList.toggle('change')
+})
+
+/** Colapso da navbar quando o usuário clica em algum link **/
+
+const navLink = document.querySelectorAll('.nav-link')
+const collapsableMenu = document.querySelector('.navbar-collapse')
+
+navLink.forEach(a =>{
+    a.addEventListener('click', ()=>{
+        collapsableMenu.classList.remove('show')
+        navbar.classList.remove('change')
+        
+
+    })
+})
+   
+
+
+
+
+ 

@@ -64,6 +64,12 @@ a, a:link, a:visited, a:hover, a:active{
     z-index: 10000;
 }
 
+.navbar-collapse{
+  text-align: right;
+  transition: all .5s;
+}
+
+
 .logo /** NENSEFLIX **/{
 	font-size: 2.5rem;
 	margin-left: 1.5%;
@@ -267,9 +273,15 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 
 .jogo1, .jogo2, .jogo3, .jogo4, .jogo5, .jogo6, .jogo7, .jogo8, .jogo9
 ,.jogo10, .jogo11, .jogo12, .jogo13, .cancao1, .cancao2, .cancao3, .cancao4,
-.cancao5, .cancao6, .doc1, .doc2, .doc3, .doc4, .doc5 {
+.cancao5, .cancao6, .doc1, .doc2, .doc3, .doc4, .doc5, .landing {
 	background-size: cover;
 }
+
+
+/*.genre-action{
+  display: flex;
+  justify-content: space-between;
+}*/
 
 
 
@@ -342,6 +354,12 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 #sobre i{
 	margin-right: 1%;
 	color: #fff;
+	transition: color .3s;
+}
+
+
+#sobre i:hover{
+	color: var(--grena);
 }
 
 
@@ -364,17 +382,18 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 
 .landing{
 		background: var(--opacidade),
-		url('..images/fredonmd.jpg');
+		url('../images/fredonmd.jpg');
 	}
 
 	.nav-link /** texto do menu colapsável **/{
-		text-align: right;
+		text-align: center;
 	}
 
 }
 
 
 @media (min-width: 800px) /** habilitar mudança de cor e tamanho nos links da navbar **/{
+
 
 	a.nav-link:hover{
 	color: var(--grena);
@@ -387,6 +406,7 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 
 
 @media (max-width: 799px) {
+
 	.matchButton /** momento em que os botoes ficam sobrepostos **/{
 		margin: 2% 2%;
 	}
@@ -404,12 +424,22 @@ a.nav-link:link, a.nav-link:visited, a.nav-link:active {
 		background-color: rgba(0, 0, 0, 0.50);
   }
 
+  .navbar-link{
+  	text-align: center;
+  }
+
+  .navbar.change{
+  	background-color: rgba(0, 0, 0, 0.8);
+  	transition: all .3s;
+  }
+
 }
 
 
 /** IPHONE 6/7/8 PLUS **/
 
 @media (max-width: 450px){
+
 
 	h2{
 		font-size: 2rem;
